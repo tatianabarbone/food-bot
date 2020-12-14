@@ -1,0 +1,45 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hello", "Hey", "heyy", "How are you", "Is anyone there?", "What's up?", "Yo"],
+         "responses": ["Hi!", "Hello!"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later!", "Have a nice day.", "Bye!", "Catch you later."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure."]
+        },
+
+        {"tag": "joke",
+        "patterns": ["Tell me a joke.", "Say something funny about food", "Crack a joke", "Entertain me", "Tell me something I don't know."],
+        "responses": [] 
+        },
+
+        {"tag": "cook",
+        "patterns": ["I'm looking for a recipe.", "I want to cook", "What should I make?", "What to eat", 
+                "please give me a recipe", "what should I eat for dinner?", 
+                "can you recommend a recipe? I'm looking for something to eat"],
+        "responses": []},
+
+        {"tag": "utter-meal-type",
+        "patterns": ["main course", "side dish", "dessert", "appetizer", "salad",
+                "bread", "breakfast", "soup", "beverage", "sauce", "marinade", "fingerfood", 
+                "snack", "drink"],
+        "responses": []},
+
+        {"tag": "affirm",
+        "patterns": ["yes","yup","yeah","yea","yessss","that is correct","right","i think so","ya",
+                "yes please","sure"],
+        "responses": []},
+        
+        {"tag": "deny",
+        "patterns": ["no", "no thank you", "i am not", "nope", "nah", "noooo"],
+        "responses": []},
+
+        {"tag": "uncertain",
+        "patterns": ["i don't know", "i am not sure", "i do not know","I cannot decide"],
+        "responses": []}
+   ]
+}
