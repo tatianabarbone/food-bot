@@ -15,7 +15,7 @@ food-bot is a NLP [Discord](https://discordpy.readthedocs.io/en/latest/api.html#
 3. Suggest a few dessert recipes for me based on my dietary preferences.
 4. Tell me a joke.
   
-### The Model 
+## The Model 
 I chose a feed forward neural network with 2 hidden layers, which was able to learn well given the training data. This was the best choice for detection of patterns in text to predict user input and then select choose the best response by food-bot. 
 The code for the implementation of the feed-forward 2-layer neural net is borrowed from [here](https://github.com/python-engineer/pytorch-chatbot).
 
