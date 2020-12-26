@@ -29,6 +29,9 @@ The API has access to thousands of recipes, and provides an efficient way to sea
 ## Customization
 Currently, food-bot is programmed to retrieve random recipes, recipes given ingredients, and recipes given a meal type based on my dietary preferences. In the future, I will be expanding food-bot's capabilities to handle the needs of other humans. 
 
+## Functionality
+<img src="gifs/flowchart.png" width="1000" height="900"/>
+
 ## What I Learned
 - Gained asynchronous programming knowledge using async/await 
 - Improved my understanding of neural nets and how to implement one in python
