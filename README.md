@@ -11,13 +11,12 @@ food-bot is a NLP [Discord](https://discordpy.readthedocs.io/en/latest/api.html#
   
 ## Use Cases
 
-| What can I make with the ingredients in my fridge?     | I don't know what to cook, send me a random recipe. |
+| What can I make with the ingredients in my fridge?                    | I don't know what to cook, send me a random recipe. |
 | ----------- | ----------- |
-|<img src="gifs/gif1.gif" width="350" height="400"/>     | <img src="gifs/gif2.gif" width="350" height="400"/>      |
-
+|<img src="gifs/gif1.gif" width="350" height="400"/>                    | <img src="gifs/gif2.gif" width="350" height="400"/> |
 | Suggest a few dessert recipes for me based on my dietary preferences. | Tell me a joke. |
 | ----------- | ----------- |
-|<img src="gifs/gif3.gif" width="350" height="400"/> | <img src="gifs/gif4.gif" width="350" height="400"/> |
+|<img src="gifs/gif3.gif" width="350" height="400"/>     | <img src="gifs/gif4.gif" width="550" height="400"/> |
   
 ## The Model 
 I chose a feed forward neural network with 2 hidden layers, which was able to learn well given the training data. This was the best choice for detection of patterns in text to predict user input and then select choose the best response by food-bot. 
