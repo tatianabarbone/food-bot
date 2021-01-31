@@ -14,6 +14,7 @@ food-bot is a NLP [Discord](https://discordpy.readthedocs.io/en/latest/api.html#
 | What can I make with the ingredients in my fridge?                    | I don't know what to cook, send me a random recipe. |
 | ----------- | ----------- |
 |<img src="gifs/gif1.gif" width="350" height="400"/>                    | <img src="gifs/gif2.gif" width="350" height="400"/> |
+
 | Suggest a few dessert recipes for me based on my dietary preferences. | Tell me a joke. |
 | ----------- | ----------- |
 |<img src="gifs/gif3.gif" width="350" height="400"/>     | <img src="gifs/gif4.gif" width="550" height="400"/> |
