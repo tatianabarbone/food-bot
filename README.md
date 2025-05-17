@@ -27,7 +27,7 @@ The code for the implementation of the feed-forward 2-layer neural net is borrow
 The API has access to thousands of recipes, and provides an efficient way to search for recipes matching my preferences. I used multiple endpoints to retrieve different pieces of recipe information, and stitched the info together for each picture by constructing a discord embed, which displayed a picture of the recipe and its relevant info.
 
 ## Customization
-Currently, food-bot is programmed to retrieve random recipes, recipes given ingredients, and recipes given a meal type based on my dietary preferences. In the future, I will be expanding food-bot's capabilities to handle the needs of other humans. 
+Currently, food-bot is programmed to retrieve random recipes, recipes given ingredients, and recipes given a meal type based on dietary preferences.
 
 ## Functionality
 <img src="gifs/flowchart.png" width="1000" height="900"/>
