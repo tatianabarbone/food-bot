@@ -15,7 +15,7 @@ food-bot is a NLP [Discord](https://discordpy.readthedocs.io/en/latest/api.html#
 | ----------- | ----------- |
 |<img src="gifs/gif1.gif" width="350" height="400"/>                    | <img src="gifs/gif2.gif" width="350" height="400"/> |
 
-| Suggest a few dessert recipes for me based on my dietary preferences. | Tell me a joke. |
+| Suggest a few dessert recipes for me. | Tell me a joke. |
 | ----------- | ----------- |
 |<img src="gifs/gif3.gif" width="350" height="400"/>     | <img src="gifs/gif4.gif" width="550" height="400"/> |
   
@@ -27,7 +27,7 @@ The code for the implementation of the feed-forward 2-layer neural net is borrow
 The API has access to thousands of recipes, and provides an efficient way to search for recipes matching my preferences. I used multiple endpoints to retrieve different pieces of recipe information, and stitched the info together for each picture by constructing a discord embed, which displayed a picture of the recipe and its relevant info.
 
 ## Customization
-Currently, food-bot is programmed to retrieve random recipes, recipes given ingredients, and recipes given a meal type based on dietary preferences.
+Currently, food-bot is programmed to retrieve random recipes, recipes given ingredients, and recipes given a meal type.
 
 ## Functionality
 <img src="gifs/flowchart.png" width="1000" height="900"/>
